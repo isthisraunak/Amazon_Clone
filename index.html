@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="amazon-logo.png" alt="Amazon Logo">
+        </div>
+        <div class="nav-search">
+            <input type="text" placeholder="Search Amazon">
+            <button>Search</button>
+        </div>
+        <div class="nav-account">
+            <span>Hello, Sign in</span>
+            <span>Account & Lists</span>
+        </div>
+        <div class="nav-cart">
+            🛒 Cart
+        </div>
+    </nav>
+
+    <!-- Product Grid -->
+    <div class="product-grid">
+        <div class="product-card">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Product Name</h3>
+            <p>$99.99</p>
+            <button class="add-to-cart">Add to Cart</button>
+        </div>
+        <!-- Repeat product cards -->
+    </div>
+
+    <!-- Shopping Cart Modal -->
+    <div class="cart-modal" id="cartModal">
+        <h2>Your Cart</h2>
+        <div class="cart-items"></div>
+        <button class="checkout-btn">Proceed to Checkout</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
